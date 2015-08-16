@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
+platform :ios, '8.2'
 use_frameworks!
 
 target 'TimeIntervalPicker', :exclusive => true do
@@ -8,5 +8,5 @@ end
 
 target 'Tests', :exclusive => true do
   pod "TimeIntervalPicker", :path => "../"
-  pod 'FBSnapshotTestCase'
+  pod 'FBSnapshotTestCase', '~> 1.0'
 end

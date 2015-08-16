@@ -14,7 +14,7 @@ TimeIntervalPicker reimplementes UIDatePicker in CountDownTimer mode from scratc
 
 ## Requirements
 
-iOS 8.0+, Xcode 6.4
+iOS 8.2+, Xcode 7
 
 ## Installation
 

@@ -16,11 +16,11 @@ internal class DigitsLabel: UIView {
         createLabel(width: labelWidth, height: height, font: font, textColor: textColor)
     }
     
-    internal required init(coder aDecoder: NSCoder) {
+    internal required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func createLabel(#width: CGFloat, height: CGFloat, font: UIFont, textColor: UIColor) {
+    private func createLabel(width width: CGFloat, height: CGFloat, font: UIFont, textColor: UIColor) {
         label = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: height))
         addSubview(label)
         label.textAlignment = textAlignment
@@ -58,7 +58,7 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
             return NSCalendar.currentCalendar().dateFromComponents(components)!
         }
         set(newDate) {
-            let components = NSCalendar.currentCalendar().components(.CalendarUnitHour | .CalendarUnitMinute | .CalendarUnitSecond, fromDate: newDate)
+            let components = NSCalendar.currentCalendar().components([.Hour, .Minute, .Second], fromDate: newDate)
             countDownDuration = NSTimeInterval(components.hour * 3600 + components.minute * 60 + components.second)
         }
     }
@@ -68,8 +68,9 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
         date = newDate
     }
     
-    public func setDatePickerMode(mode: UIDatePickerMode) {
-        assert(mode == .CountDownTimer)
+    public var datePickerMode: UIDatePickerMode {
+        get { return .CountDownTimer }
+        set(newMode) { assert(newMode == .CountDownTimer) }
     }
     
     // MARK: Layout and geometry
@@ -128,19 +129,19 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
         
         createPickerView()
         createFloatingLabels()
-        autoresizingMask = .FlexibleHeight | .FlexibleWidth
+        autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
         
         // Creates an illusion of an infinitly-looped minute: selector
         let middleMinutesRow = minuteRowsCount / 2
         pickerView.selectRow(middleMinutesRow, inComponent: Components.Minute.rawValue, animated: false)
     }
     
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         createPickerView()
         createFloatingLabels()
-        autoresizingMask = .FlexibleHeight | .FlexibleWidth
+        autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
         
         // Creates an illusion of an infinitly-looped minute: selector
         let middleMinutesRow = minuteRowsCount / 2
@@ -151,11 +152,11 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
         pickerView = UIPickerView()
         pickerView.delegate = self
         pickerView.dataSource = self
-        pickerView.setTranslatesAutoresizingMaskIntoConstraints(false)
+        pickerView.translatesAutoresizingMaskIntoConstraints = false
         addSubview(pickerView)
         
         // Fill the whole container:
-        var width = NSLayoutConstraint(
+        let width = NSLayoutConstraint(
             item: pickerView,
             attribute: NSLayoutAttribute.Width,
             relatedBy: NSLayoutRelation.Equal,
@@ -164,7 +165,7 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
             multiplier: 1.0,
             constant: 0)
         
-        var height = NSLayoutConstraint(
+        let height = NSLayoutConstraint(
             item: pickerView,
             attribute: NSLayoutAttribute.Height,
             relatedBy: NSLayoutRelation.Equal,
@@ -173,7 +174,7 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
             multiplier: 1.0,
             constant: 0)
         
-        var top = NSLayoutConstraint(
+        let top = NSLayoutConstraint(
             item: pickerView,
             attribute:NSLayoutAttribute.Top,
             relatedBy:NSLayoutRelation.Equal,
@@ -182,7 +183,7 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
             multiplier: 1.0,
             constant: 0)
         
-        var leading = NSLayoutConstraint(
+        let leading = NSLayoutConstraint(
             item: pickerView,
             attribute: NSLayoutAttribute.Leading,
             relatedBy: NSLayoutRelation.Equal,
@@ -199,10 +200,10 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
     
     private func createFloatingLabels() {
         func createLabel(text: String) -> UILabel {
-            var label = UILabel()
+            let label = UILabel()
             label.font = self.minutesHoursLabelFont
             label.text = text
-            label.setTranslatesAutoresizingMaskIntoConstraints(false)
+            label.translatesAutoresizingMaskIntoConstraints = false
             label.userInteractionEnabled = false
             label.adjustsFontSizeToFitWidth = false
             label.sizeToFit()
@@ -265,13 +266,13 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
         return componentWidth;
     }
     
-    public func pickerView(pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView!) -> UIView {
-        var label: DigitsLabel = view is DigitsLabel ? view as! DigitsLabel : DigitsLabel(width: componentWidth, height: digitsLabelSize.height, labelWidth: digitsLabelSize.width, font: digitsLabelFont, textColor: digitsLabelTextColor)
-        label.text = self.pickerView(pickerView, titleForRow: row, forComponent: component)
+    public func pickerView(pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView?) -> UIView {
+        let label: DigitsLabel = view is DigitsLabel ? view as! DigitsLabel : DigitsLabel(width: componentWidth, height: digitsLabelSize.height, labelWidth: digitsLabelSize.width, font: digitsLabelFont, textColor: digitsLabelTextColor)
+        label.text = self.pickerView(pickerView, titleForRow: row, forComponent: component)!
         return label
     }
     
-    public func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+    public func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         assert(pickerView == self.pickerView)
         switch Components(rawValue: component)! {
         case Components.Hour:
