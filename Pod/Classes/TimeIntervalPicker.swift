@@ -80,7 +80,7 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
     public var componentWidth: CGFloat = 102
     
     /// Size of a label that shows hours/minutes digits within a component
-    public var digitsLabelSize = CGSize(width: 26, height: 30)
+    public var digitsLabelSize = CGSize(width: 30, height: 30)
     
     /// Font of labels that show hours/minutes digits within a component
     public var digitsLabelFont = UIFont.systemFontOfSize(23.5) {
@@ -93,7 +93,7 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
     }
     
     /// Font of "hours" and "min" labels
-    public var minutesHoursLabelFont = UIFont.systemFontOfSize(17, weight: UIFontWeightMedium) {
+    public var minutesHoursLabelFont = UIFont.systemFontOfSize(17, weight: UIFontWeightSemibold) {
         didSet {
             minutesFloatingLabel.font = minutesHoursLabelFont
             hoursFloatingLabel.font = minutesHoursLabelFont
@@ -219,8 +219,9 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
     
     override public func layoutSubviews() {
         func alignToBaselineOfSelectedRow(label: UILabel) {
-            let rowBaseline = self.pickerView.frame.origin.y + (self.pickerView.frame.height / 2) - self.digitsLabelFont.descender
-            label.frame.origin.y = rowBaseline - label.frame.size.height - label.font.descender
+            let pickerViewMiddleY = pickerView.frame.origin.y + (pickerView.frame.height / 2)
+            let digitsBaseline = pickerViewMiddleY + (digitsLabelFont.capHeight / 2)
+            label.frame.origin.y = digitsBaseline - label.font.lineHeight - label.font.descender
         }
         
         super.layoutSubviews()
