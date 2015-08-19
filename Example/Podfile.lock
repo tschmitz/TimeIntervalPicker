@@ -1,6 +1,6 @@
 PODS:
   - FBSnapshotTestCase (1.8.1)
-  - TimeIntervalPicker (0.3.0)
+  - TimeIntervalPicker (0.3.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 1.0)
@@ -12,6 +12,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
-  TimeIntervalPicker: d6182e683464f628bc0587432a5bf626883fb86c
+  TimeIntervalPicker: a7ea371a2cc5477e4185ff090b267b3562fdc592
 
 COCOAPODS: 0.38.2

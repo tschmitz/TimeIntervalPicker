@@ -93,7 +93,7 @@ public class TimeIntervalPicker: UIControl, UIPickerViewDataSource, UIPickerView
     }
     
     /// Font of "hours" and "min" labels
-    public var minutesHoursLabelFont = UIFont.systemFontOfSize(17, weight: UIFontWeightSemibold) {
+    public var minutesHoursLabelFont = UIFont.boldSystemFontOfSize(17) {
         didSet {
             minutesFloatingLabel.font = minutesHoursLabelFont
             hoursFloatingLabel.font = minutesHoursLabelFont

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF0F12242006A74D687FA9E3"
+               BlueprintIdentifier = "6C90C1A75A7680C64356F4C0"
                BuildableName = "TimeIntervalPicker.framework"
                BlueprintName = "TimeIntervalPicker"
                ReferencedContainer = "container:Pods.xcodeproj">
