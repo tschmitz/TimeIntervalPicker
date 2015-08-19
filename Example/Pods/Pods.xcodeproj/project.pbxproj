@@ -7,370 +7,395 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00CE268B7C7BCE16334F32FC1C2EB71A /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10351A2126F13D8D4C0E5687C7EC185E /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		041DE02E7081C6FC7DEE37F59EDAD7A9 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0CF56E5913C2A9678AF3B6BFE04A97 /* Pods-Tests-dummy.m */; };
-		1842B596108BED3F03A5112B1443C759 /* Pods-TimeIntervalPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C21BE592BE91003FE1BCB48E9607CFBB /* Pods-TimeIntervalPicker-dummy.m */; };
-		2CC41D2E358EA3BADDA4BECF0E5A9C2A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BA901001685B1ECF7E1DFADDAED21 /* UIImage+Diff.m */; };
-		2E7069FE1910E785BE47F5C295C1400B /* TimeIntervalPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E783387E35C817B59114B3C07670A195 /* TimeIntervalPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37A6CA5EDD854ADB4EB8E0A6F7E1A569 /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5967020D1711B5F8C3BB272A6796E4BD /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48D0B979D74CF3066A7BD47B6603C663 /* TimeIntervalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB96FD9F4B9A531ED941A28533052DE /* TimeIntervalPicker.swift */; };
-		4E5DA348EC1CEE23FA13110723FAB2BA /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D320D7291CDF9FB965125A056D4508 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59902EF6DE95B5EC0D277C90CB714CAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6EEA73BF2D5124382A572E280538F5 /* Foundation.framework */; };
-		67979CC4DBFB17F7CA9835C0832E3D65 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AB0192CEB1FF699E0734DDC263237F /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72B30E0B563D409990446BEBF55AB090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418AEF70A82503B462BFD77D0211FD96 /* UIKit.framework */; };
-		8D11E96EF4B0F59F19129D68065AD5BA /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6B71CADB30DDB68E98EE62FD3A68F1 /* UIImage+Compare.m */; };
-		92881CB442DC5713CA7106417E6D0CAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6EEA73BF2D5124382A572E280538F5 /* Foundation.framework */; };
-		A11410E832B35D31ADBC868B44BE1DC7 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6883E280C22D79BDCBABB31C9A0A49 /* FBSnapshotTestCase-dummy.m */; };
-		B3E4404C1A7123BCF3B17825735663A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6EEA73BF2D5124382A572E280538F5 /* Foundation.framework */; };
-		B73B3FBC75960E224AE822D5DF4D753F /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D1402B3EA8F0A4D67D2717403C04A7 /* FBSnapshotTestController.m */; };
-		C4B73EE44B10A264AC4FDE1EF277AA41 /* TimeIntervalPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F293336931FF5B97730B0B19B854C5 /* TimeIntervalPicker-dummy.m */; };
-		C5DF1894E9B0C7E61F63C1275FDB53C9 /* Pods-TimeIntervalPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 153D26D03A80F3CEDD5F9B6F54BFEBF0 /* Pods-TimeIntervalPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD83CBD8E86245771813C570663FEDE0 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBB3C2C9516542C6978BB33E8F505F3 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4731E70B508AC176F3B5A2275C7D895 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 859C7CE8323E1DE949D2B1E263A5D385 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED903F97D8831A9D90A7E9D470C355F4 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8822659729B3E218CA83C274415DF2A6 /* FBSnapshotTestCase.m */; };
-		EEFF8CA73EB13CD022C67CDAC70EBFD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6EEA73BF2D5124382A572E280538F5 /* Foundation.framework */; };
-		FC797C96E747C9371879EC5800248D78 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2C5B45D3188C8CBEBDA559E11EF9F /* XCTest.framework */; };
+		044C71597B650C3670754C517A02B92F /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC065B5EAA1716E4643B3FE0E72333 /* FBSnapshotTestController.m */; };
+		13430B915D19CBB832AE6F7688B6E8C0 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B0ECB023E9628A9A68A431B27E0F30 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		147111E844AE7BF2E5739EC03EEBACEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469EF7B6443AB15D14858DB955AA88B5 /* UIKit.framework */; };
+		170FF3B2CE1C9CD1F4B720CA0E3C3519 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D24E6887A70EEFCD8A2564939F3581CE /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF244D96D8679C2458BD00F2867A210 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E0CE3E5BD72922803D46A417322090 /* FBSnapshotTestCase-dummy.m */; };
+		3368024F8AD862028B4A5E8354A73E2A /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D955CAACCE25A72A5E1C185DEDDE24 /* FBSnapshotTestCase.m */; };
+		4F4393F247FD75E61B3056971DCBDA0D /* Pods-TimeIntervalPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A97E007FC8CDB3305CBEC5E2D3199F92 /* Pods-TimeIntervalPicker-dummy.m */; };
+		546D9E766BE598AD0BCDDA041EFDC903 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E65D846438149329A35008AD45EF23 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FA162CB3D8CDE487990629E028C1B88 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = F5AE3FE8203D64A1DCE84F4EC0EDBB55 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6372EBD95B9F49EE0522788D6FD02214 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 97125F602B8A8EEABB875AEDE5F6AADF /* UIImage+Diff.m */; };
+		65AC247FEDC1571C02D7724E2CBA172E /* TimeIntervalPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A620A0654ABAA99C3C5725F5064605 /* TimeIntervalPicker-dummy.m */; };
+		6B41B2BF10F81ACF44F7D67DBEBD1ECC /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352D734FC61333DFED25D74891393E8 /* UIImage+Compare.m */; };
+		75D010AF342B56EFE6EF1C695F2BDA9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C8450BDB688771614F0BB46DD2C829 /* XCTest.framework */; };
+		923D48F103DCA8037B63DBA60E8CC9E6 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA725FEC467C8D5CAEB68FE1CE48A68 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6CBDF00AA11AD3409E046181446765D /* TimeIntervalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5D020B2F70D209AADFE3004C05FDA /* TimeIntervalPicker.swift */; };
+		AA7FD8B37C2CC469D9539F3ACDE9A79C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FE1C5B45671C2AB6E381A79AC9B4BC /* Foundation.framework */; };
+		AB3AF10FB93F741BA2F9BFDCF8DE682E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8F1663753E342BE23E27B24338CF3F /* FBSnapshotTestCasePlatform.m */; };
+		AB89910F09E227908D2B94EC54988899 /* TimeIntervalPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7215D9A9E642802DEF87510CBDF3DF /* TimeIntervalPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB971810129BA0D414212B21FCA6B78F /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2F1B23DD55CF71A407D0BD5F28A629 /* Pods-Tests-dummy.m */; };
+		BE897B766F0BCAE9B23A60B5E77E5DC9 /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F871DC9FA5DDC4DF9B196B249181A51 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE94E29B5667BF0265C09C25EBAA3655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FE1C5B45671C2AB6E381A79AC9B4BC /* Foundation.framework */; };
+		CC867230D3E62192BF87BD22960B108B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FE1C5B45671C2AB6E381A79AC9B4BC /* Foundation.framework */; };
+		D84A0860071F82C05F052768D4B7552E /* Pods-TimeIntervalPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E01C007D7A10F567F43E77620028F5 /* Pods-TimeIntervalPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98914D6F50919416B76CBA1065D3959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FE1C5B45671C2AB6E381A79AC9B4BC /* Foundation.framework */; };
+		FDDDD653E5BE3CBAFEF07384B3A71823 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = AE302B91D87D9E8F4410DE810C4FE663 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4FFC4567B11965E309FC11F6C4543A74 /* PBXContainerItemProxy */ = {
+		4566CBC28C8863BC82FB06E395111483 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67BCD11D9FF12A928A194B20151BBAC4;
+			remoteGlobalIDString = DB8F7FEC3584BC0F68593A792FBF94C2;
 			remoteInfo = TimeIntervalPicker;
 		};
-		A6AE03C1AAA285257CC079FA360DFABE /* PBXContainerItemProxy */ = {
+		65DCF56A1246739C5E494F08D4CBAF01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67BCD11D9FF12A928A194B20151BBAC4;
+			remoteGlobalIDString = DB8F7FEC3584BC0F68593A792FBF94C2;
 			remoteInfo = TimeIntervalPicker;
 		};
-		E0FC2C3A27243853F67853A03796A004 /* PBXContainerItemProxy */ = {
+		89D596475D9E6AC1FD48B401BA5B6998 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5CCFB2F59DAFE502703E0247972EB6E;
+			remoteGlobalIDString = E036BAC74DFC6440B0E0E2D78FDEA974;
 			remoteInfo = FBSnapshotTestCase;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E5BA901001685B1ECF7E1DFADDAED21 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Diff.m"; sourceTree = "<group>"; };
-		10351A2126F13D8D4C0E5687C7EC185E /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		153D26D03A80F3CEDD5F9B6F54BFEBF0 /* Pods-TimeIntervalPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeIntervalPicker-umbrella.h"; sourceTree = "<group>"; };
-		158718CD7E2DA3B19D043639F1BDB3D3 /* TimeIntervalPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TimeIntervalPicker-Private.xcconfig"; sourceTree = "<group>"; };
-		18B02A38F93A065A5F51CD6822A32ECF /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		242F891AF978E5384A55433A51A873F8 /* Pods_TimeIntervalPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeIntervalPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		249C5DA6A4EA0798FB5D94014C991DC5 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		29D3366334FC59C62288372B626CC0AF /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		29F3D46F39EF1065E75849747D054427 /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
-		324D930B62CD0C2113F89CA75FED71B6 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
-		38385B4FC2916B3AC617995E0B1F51F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39D1402B3EA8F0A4D67D2717403C04A7 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FBSnapshotTestController.m; sourceTree = "<group>"; };
-		3EDDE647BDA69147864AB008AD9C6E50 /* Pods-TimeIntervalPicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeIntervalPicker-frameworks.sh"; sourceTree = "<group>"; };
-		418AEF70A82503B462BFD77D0211FD96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		50A10BD9E6B30993561CA1A4B3099201 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5967020D1711B5F8C3BB272A6796E4BD /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
-		5AFCD7AC251DF228E917CCF506D22856 /* Pods-TimeIntervalPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeIntervalPicker-acknowledgements.plist"; sourceTree = "<group>"; };
-		5ED330A1573AAC71D2DA42188A954594 /* TimeIntervalPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TimeIntervalPicker.modulemap; sourceTree = "<group>"; };
-		71F293336931FF5B97730B0B19B854C5 /* TimeIntervalPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimeIntervalPicker-dummy.m"; sourceTree = "<group>"; };
-		7DBB3C2C9516542C6978BB33E8F505F3 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSnapshotTestController.h; sourceTree = "<group>"; };
-		7E6EEA73BF2D5124382A572E280538F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		859C7CE8323E1DE949D2B1E263A5D385 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		87DDD1BC8D477D4573352A3C2FE77ED4 /* Pods-TimeIntervalPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeIntervalPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8822659729B3E218CA83C274415DF2A6 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		883C0E3BDA7D3BC183F9D9D39125E5EC /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		8CCFCCACC5CCC88365AE0438D7CD62A9 /* Pods-TimeIntervalPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeIntervalPicker.release.xcconfig"; sourceTree = "<group>"; };
-		90E152B5BDA232D1C2FB6286EB911EA3 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A76CC7E87471B1A9975D443DC8B8DF7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A993F540DEA73E751F321D3E25D4476D /* TimeIntervalPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeIntervalPicker-prefix.pch"; sourceTree = "<group>"; };
-		A9D320D7291CDF9FB965125A056D4508 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compare.h"; sourceTree = "<group>"; };
-		B022A3D579856AF74C273D61ADE3CF9F /* Pods-TimeIntervalPicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeIntervalPicker-resources.sh"; sourceTree = "<group>"; };
-		B0AB0192CEB1FF699E0734DDC263237F /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Diff.h"; sourceTree = "<group>"; };
-		C21BE592BE91003FE1BCB48E9607CFBB /* Pods-TimeIntervalPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeIntervalPicker-dummy.m"; sourceTree = "<group>"; };
-		C2ED9E735BF2266AD35DF190C2828B91 /* TimeIntervalPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeIntervalPicker.xcconfig; sourceTree = "<group>"; };
-		C2F2C5B45D3188C8CBEBDA559E11EF9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C88113A79685B4EFEE7BAD12896829F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D31510E4B4CFAEED90A1A43E62380F32 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D3E5E94EA8C8CFBF34578F0661E00B7D /* Pods-TimeIntervalPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeIntervalPicker.debug.xcconfig"; sourceTree = "<group>"; };
-		D5C369607FEF029E1BFD40604FF7D5CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDEEB9FD761F95EE3F286ED8C9B4CB33 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E109382B15ED391B43F91C8134793C91 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E6180CA00106FD7E050BAED661F9EFEC /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E783387E35C817B59114B3C07670A195 /* TimeIntervalPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeIntervalPicker-umbrella.h"; sourceTree = "<group>"; };
-		EC724EBD4B37B1547D20A5A89C17094C /* TimeIntervalPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimeIntervalPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECB96FD9F4B9A531ED941A28533052DE /* TimeIntervalPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeIntervalPicker.swift; sourceTree = "<group>"; };
-		ED0CF56E5913C2A9678AF3B6BFE04A97 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		EDF78CEF4D8A016778FA7AA13087A2B8 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE6883E280C22D79BDCBABB31C9A0A49 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		EF41C6D40A4E2D7FC3A5CCCA1BD718C3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		FA6B71CADB30DDB68E98EE62FD3A68F1 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compare.m"; sourceTree = "<group>"; };
-		FCFF946C38D24F035EB69AD0AA0F2540 /* Pods-TimeIntervalPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimeIntervalPicker.modulemap"; sourceTree = "<group>"; };
+		03FE1C5B45671C2AB6E381A79AC9B4BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0C7215D9A9E642802DEF87510CBDF3DF /* TimeIntervalPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeIntervalPicker-umbrella.h"; sourceTree = "<group>"; };
+		0D2C2D2A1360DAD1F0576A4F3CDE206F /* Pods-TimeIntervalPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeIntervalPicker.release.xcconfig"; sourceTree = "<group>"; };
+		15D955CAACCE25A72A5E1C185DEDDE24 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		207965E7BF3701A8A6D9E5E67225E2B4 /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		21AC065B5EAA1716E4643B3FE0E72333 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		3352D734FC61333DFED25D74891393E8 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
+		379B78C6385B8387E982AC371B742AA2 /* Pods-TimeIntervalPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeIntervalPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4094A0CA0A8B21B256DA2D6BD2FBDE10 /* Pods-TimeIntervalPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimeIntervalPicker.modulemap"; sourceTree = "<group>"; };
+		46204DDDD98811250CC2A3D3C852B8E7 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4655AB05500CD542BE7A054776C7CCDE /* Pods-TimeIntervalPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeIntervalPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		468820ECF5065D35DDD73AF72B8642A9 /* Pods_TimeIntervalPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeIntervalPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		469EF7B6443AB15D14858DB955AA88B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E1043F1AD82FDDA701B0AE19561D26E /* TimeIntervalPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeIntervalPicker.xcconfig; sourceTree = "<group>"; };
+		4F615F7EC37AFBC53CE003D7FEA09F0B /* TimeIntervalPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TimeIntervalPicker.modulemap; sourceTree = "<group>"; };
+		523EC5D520703B33350870B39243C265 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		56CB648DD9110DCDBDBE5E674F8D4E41 /* TimeIntervalPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeIntervalPicker-prefix.pch"; sourceTree = "<group>"; };
+		59A620A0654ABAA99C3C5725F5064605 /* TimeIntervalPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimeIntervalPicker-dummy.m"; sourceTree = "<group>"; };
+		6C8F1663753E342BE23E27B24338CF3F /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		77CA05328FA1765C37C3739CCE8F381C /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		7F871DC9FA5DDC4DF9B196B249181A51 /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
+		87DF49B3F898DAF9D2A80DD257A33977 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE5D020B2F70D209AADFE3004C05FDA /* TimeIntervalPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeIntervalPicker.swift; sourceTree = "<group>"; };
+		90440829406F9399EEEE46B0E6F9FE4B /* Pods-TimeIntervalPicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeIntervalPicker-resources.sh"; sourceTree = "<group>"; };
+		94E01C007D7A10F567F43E77620028F5 /* Pods-TimeIntervalPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeIntervalPicker-umbrella.h"; sourceTree = "<group>"; };
+		97125F602B8A8EEABB875AEDE5F6AADF /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/UIImage+Diff.m"; sourceTree = "<group>"; };
+		9B0F8DDCBDA7037CF968C61D0EBB4D15 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		9C32FC14B06B965BCA264A404AF3AD79 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8DE1ED968B868DFC9F830C9455F426 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
+		A7F67ECCA78AFE09B041D8ADC701938D /* Pods-TimeIntervalPicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeIntervalPicker-frameworks.sh"; sourceTree = "<group>"; };
+		A97E007FC8CDB3305CBEC5E2D3199F92 /* Pods-TimeIntervalPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeIntervalPicker-dummy.m"; sourceTree = "<group>"; };
+		AE302B91D87D9E8F4410DE810C4FE663 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		B3E65D846438149329A35008AD45EF23 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		B7B0ECB023E9628A9A68A431B27E0F30 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
+		B90CA0E1F0DA1DC218CCCDA6DA83D505 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		BA2F1B23DD55CF71A407D0BD5F28A629 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4C8450BDB688771614F0BB46DD2C829 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C6F7D02ABCA489173DB7EF9302640855 /* TimeIntervalPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TimeIntervalPicker-Private.xcconfig"; sourceTree = "<group>"; };
+		D0CA0DF4796A78AEE9DB69330F8C746E /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D24E6887A70EEFCD8A2564939F3581CE /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		D7BE1E4B69AADDF79B521A6FD6BCE755 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA31AFF17A6B074F09AB1C01D435924C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CA00000D132B3F871B2BD38537B43C /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EAFD84AB9A22F78EB517DD9D07A05A50 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		EE25FC97C0AE2AAAAC16393630544297 /* TimeIntervalPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimeIntervalPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E0CE3E5BD72922803D46A417322090 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		F5AE3FE8203D64A1DCE84F4EC0EDBB55 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/UIImage+Compare.h"; sourceTree = "<group>"; };
+		F5B876059E33A9F0B5D585BF7038A2A8 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAA725FEC467C8D5CAEB68FE1CE48A68 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		FB6D9636E55CE8AA35D8A86F48E8CBA4 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0B489449AD03AB8B0C852593D9DEB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1CC877B0728CFC741A64CFD4B29038 /* Pods-TimeIntervalPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeIntervalPicker-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1EB874ABC17223DD935C5C63F6A99A28 /* Frameworks */ = {
+		BCB6F3D2418B2E048C2B29B0EE05C66B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E4404C1A7123BCF3B17825735663A3 /* Foundation.framework in Frameworks */,
-				FC797C96E747C9371879EC5800248D78 /* XCTest.framework in Frameworks */,
+				AA7FD8B37C2CC469D9539F3ACDE9A79C /* Foundation.framework in Frameworks */,
+				147111E844AE7BF2E5739EC03EEBACEE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49EBF6043EFDBF2F931B11949362E245 /* Frameworks */ = {
+		CD405176B175816C76F24D80D8B478BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92881CB442DC5713CA7106417E6D0CAE /* Foundation.framework in Frameworks */,
+				BE94E29B5667BF0265C09C25EBAA3655 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB70B98F09CF292931420397B358BC79 /* Frameworks */ = {
+		F23C76A83E1CD1F00F90FA33A873F4A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59902EF6DE95B5EC0D277C90CB714CAB /* Foundation.framework in Frameworks */,
+				CC867230D3E62192BF87BD22960B108B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8D8506730021C99B644FE18F7BE584E /* Frameworks */ = {
+		F6D66C0747109F3EBDA599FA7611C49E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEFF8CA73EB13CD022C67CDAC70EBFD3 /* Foundation.framework in Frameworks */,
-				72B30E0B563D409990446BEBF55AB090 /* UIKit.framework in Frameworks */,
+				F98914D6F50919416B76CBA1065D3959 /* Foundation.framework in Frameworks */,
+				75D010AF342B56EFE6EF1C695F2BDA9D /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0720760E6FAA87218C034E98CCD3509B /* Development Pods */ = {
+		0423FFB25098E7148B78A2552A0D11A7 /* TimeIntervalPicker */ = {
 			isa = PBXGroup;
 			children = (
-				C67C5C952AAE97DC98960C1295CA54BE /* TimeIntervalPicker */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		41C77F3BEB95BE9B25E4CD0E6354BBC2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				61BBF1691F56E2A6374970F3B4C70EB7 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AE3C420F843D28CC19CB40DCE9D7D8D1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		61BBF1691F56E2A6374970F3B4C70EB7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				ECB96FD9F4B9A531ED941A28533052DE /* TimeIntervalPicker.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				C88113A79685B4EFEE7BAD12896829F7 /* Podfile */,
-				0720760E6FAA87218C034E98CCD3509B /* Development Pods */,
-				5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */,
-				FCC6F965540745142F6675EF7C9E0E2D /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				D871C749CBB672E76A502DD5E90F9842 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		80FEE23C7EEBB547BBB16705261360D4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D5C369607FEF029E1BFD40604FF7D5CD /* Info.plist */,
-				5ED330A1573AAC71D2DA42188A954594 /* TimeIntervalPicker.modulemap */,
-				C2ED9E735BF2266AD35DF190C2828B91 /* TimeIntervalPicker.xcconfig */,
-				158718CD7E2DA3B19D043639F1BDB3D3 /* TimeIntervalPicker-Private.xcconfig */,
-				71F293336931FF5B97730B0B19B854C5 /* TimeIntervalPicker-dummy.m */,
-				A993F540DEA73E751F321D3E25D4476D /* TimeIntervalPicker-prefix.pch */,
-				E783387E35C817B59114B3C07670A195 /* TimeIntervalPicker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TimeIntervalPicker";
-			sourceTree = "<group>";
-		};
-		880F15766F9E13CEDF83882E85E31E33 /* Pods-TimeIntervalPicker */ = {
-			isa = PBXGroup;
-			children = (
-				38385B4FC2916B3AC617995E0B1F51F7 /* Info.plist */,
-				FCFF946C38D24F035EB69AD0AA0F2540 /* Pods-TimeIntervalPicker.modulemap */,
-				87DDD1BC8D477D4573352A3C2FE77ED4 /* Pods-TimeIntervalPicker-acknowledgements.markdown */,
-				5AFCD7AC251DF228E917CCF506D22856 /* Pods-TimeIntervalPicker-acknowledgements.plist */,
-				C21BE592BE91003FE1BCB48E9607CFBB /* Pods-TimeIntervalPicker-dummy.m */,
-				3EDDE647BDA69147864AB008AD9C6E50 /* Pods-TimeIntervalPicker-frameworks.sh */,
-				B022A3D579856AF74C273D61ADE3CF9F /* Pods-TimeIntervalPicker-resources.sh */,
-				153D26D03A80F3CEDD5F9B6F54BFEBF0 /* Pods-TimeIntervalPicker-umbrella.h */,
-				D3E5E94EA8C8CFBF34578F0661E00B7D /* Pods-TimeIntervalPicker.debug.xcconfig */,
-				8CCFCCACC5CCC88365AE0438D7CD62A9 /* Pods-TimeIntervalPicker.release.xcconfig */,
-			);
-			name = "Pods-TimeIntervalPicker";
-			path = "Target Support Files/Pods-TimeIntervalPicker";
-			sourceTree = "<group>";
-		};
-		AC942C950A34DB7A277869020A1C81DD /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A76CC7E87471B1A9975D443DC8B8DF7C /* Info.plist */,
-				324D930B62CD0C2113F89CA75FED71B6 /* Pods-Tests.modulemap */,
-				E109382B15ED391B43F91C8134793C91 /* Pods-Tests-acknowledgements.markdown */,
-				249C5DA6A4EA0798FB5D94014C991DC5 /* Pods-Tests-acknowledgements.plist */,
-				ED0CF56E5913C2A9678AF3B6BFE04A97 /* Pods-Tests-dummy.m */,
-				D31510E4B4CFAEED90A1A43E62380F32 /* Pods-Tests-frameworks.sh */,
-				29D3366334FC59C62288372B626CC0AF /* Pods-Tests-resources.sh */,
-				5967020D1711B5F8C3BB272A6796E4BD /* Pods-Tests-umbrella.h */,
-				90E152B5BDA232D1C2FB6286EB911EA3 /* Pods-Tests.debug.xcconfig */,
-				E6180CA00106FD7E050BAED661F9EFEC /* Pods-Tests.release.xcconfig */,
-			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
-			sourceTree = "<group>";
-		};
-		AE3C420F843D28CC19CB40DCE9D7D8D1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7E6EEA73BF2D5124382A572E280538F5 /* Foundation.framework */,
-				418AEF70A82503B462BFD77D0211FD96 /* UIKit.framework */,
-				C2F2C5B45D3188C8CBEBDA559E11EF9F /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		BC386722D75704B3DC82AFD41E73AABB /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				859C7CE8323E1DE949D2B1E263A5D385 /* FBSnapshotTestCase.h */,
-				8822659729B3E218CA83C274415DF2A6 /* FBSnapshotTestCase.m */,
-				7DBB3C2C9516542C6978BB33E8F505F3 /* FBSnapshotTestController.h */,
-				39D1402B3EA8F0A4D67D2717403C04A7 /* FBSnapshotTestController.m */,
-				A9D320D7291CDF9FB965125A056D4508 /* UIImage+Compare.h */,
-				FA6B71CADB30DDB68E98EE62FD3A68F1 /* UIImage+Compare.m */,
-				B0AB0192CEB1FF699E0734DDC263237F /* UIImage+Diff.h */,
-				0E5BA901001685B1ECF7E1DFADDAED21 /* UIImage+Diff.m */,
-				E1C9C19423079BF8BEB18B922BE0A70B /* Support Files */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		C67C5C952AAE97DC98960C1295CA54BE /* TimeIntervalPicker */ = {
-			isa = PBXGroup;
-			children = (
-				41C77F3BEB95BE9B25E4CD0E6354BBC2 /* Pod */,
-				80FEE23C7EEBB547BBB16705261360D4 /* Support Files */,
+				D28E3EDC3CB49B5984551C8BC042CA33 /* Pod */,
+				8044F2648A6491BCB375B80F2FE2608C /* Support Files */,
 			);
 			name = TimeIntervalPicker;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DDEEB9FD761F95EE3F286ED8C9B4CB33 /* FBSnapshotTestCase.framework */,
-				EDF78CEF4D8A016778FA7AA13087A2B8 /* Pods_Tests.framework */,
-				242F891AF978E5384A55433A51A873F8 /* Pods_TimeIntervalPicker.framework */,
-				EC724EBD4B37B1547D20A5A89C17094C /* TimeIntervalPicker.framework */,
+				3B8137962D5109D5F3D982079CF3F646 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D871C749CBB672E76A502DD5E90F9842 /* Targets Support Files */ = {
+		3B8137962D5109D5F3D982079CF3F646 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AC942C950A34DB7A277869020A1C81DD /* Pods-Tests */,
-				880F15766F9E13CEDF83882E85E31E33 /* Pods-TimeIntervalPicker */,
+				03FE1C5B45671C2AB6E381A79AC9B4BC /* Foundation.framework */,
+				469EF7B6443AB15D14858DB955AA88B5 /* UIKit.framework */,
+				C4C8450BDB688771614F0BB46DD2C829 /* XCTest.framework */,
 			);
-			name = "Targets Support Files";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		E1C9C19423079BF8BEB18B922BE0A70B /* Support Files */ = {
+		4096D8F42BB65C218D2D3944EA804F82 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				18B02A38F93A065A5F51CD6822A32ECF /* FBSnapshotTestCase.modulemap */,
-				EF41C6D40A4E2D7FC3A5CCCA1BD718C3 /* FBSnapshotTestCase.xcconfig */,
-				29F3D46F39EF1065E75849747D054427 /* FBSnapshotTestCase-Private.xcconfig */,
-				EE6883E280C22D79BDCBABB31C9A0A49 /* FBSnapshotTestCase-dummy.m */,
-				883C0E3BDA7D3BC183F9D9D39125E5EC /* FBSnapshotTestCase-prefix.pch */,
-				10351A2126F13D8D4C0E5687C7EC185E /* FBSnapshotTestCase-umbrella.h */,
-				50A10BD9E6B30993561CA1A4B3099201 /* Info.plist */,
+				9513FB366B4DCCAFA481155A56C8A85C /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4745262C12ED2522911ADE679DADBD1B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0423FFB25098E7148B78A2552A0D11A7 /* TimeIntervalPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4E91EEA8520A817162DF5D75F9458034 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D7BE1E4B69AADDF79B521A6FD6BCE755 /* Info.plist */,
+				9E8DE1ED968B868DFC9F830C9455F426 /* Pods-Tests.modulemap */,
+				46204DDDD98811250CC2A3D3C852B8E7 /* Pods-Tests-acknowledgements.markdown */,
+				D0CA0DF4796A78AEE9DB69330F8C746E /* Pods-Tests-acknowledgements.plist */,
+				BA2F1B23DD55CF71A407D0BD5F28A629 /* Pods-Tests-dummy.m */,
+				523EC5D520703B33350870B39243C265 /* Pods-Tests-frameworks.sh */,
+				EAFD84AB9A22F78EB517DD9D07A05A50 /* Pods-Tests-resources.sh */,
+				7F871DC9FA5DDC4DF9B196B249181A51 /* Pods-Tests-umbrella.h */,
+				F5B876059E33A9F0B5D585BF7038A2A8 /* Pods-Tests.debug.xcconfig */,
+				E1CA00000D132B3F871B2BD38537B43C /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				4745262C12ED2522911ADE679DADBD1B /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				4096D8F42BB65C218D2D3944EA804F82 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D8E6D4C36CB2CB51E06D33E0A50FB2B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8044F2648A6491BCB375B80F2FE2608C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87DF49B3F898DAF9D2A80DD257A33977 /* Info.plist */,
+				4F615F7EC37AFBC53CE003D7FEA09F0B /* TimeIntervalPicker.modulemap */,
+				4E1043F1AD82FDDA701B0AE19561D26E /* TimeIntervalPicker.xcconfig */,
+				C6F7D02ABCA489173DB7EF9302640855 /* TimeIntervalPicker-Private.xcconfig */,
+				59A620A0654ABAA99C3C5725F5064605 /* TimeIntervalPicker-dummy.m */,
+				56CB648DD9110DCDBDBE5E674F8D4E41 /* TimeIntervalPicker-prefix.pch */,
+				0C7215D9A9E642802DEF87510CBDF3DF /* TimeIntervalPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TimeIntervalPicker";
+			sourceTree = "<group>";
+		};
+		8CC12FAC7458B669B251E5958B09A6DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77CA05328FA1765C37C3739CCE8F381C /* FBSnapshotTestCase.modulemap */,
+				B90CA0E1F0DA1DC218CCCDA6DA83D505 /* FBSnapshotTestCase.xcconfig */,
+				207965E7BF3701A8A6D9E5E67225E2B4 /* FBSnapshotTestCase-Private.xcconfig */,
+				F2E0CE3E5BD72922803D46A417322090 /* FBSnapshotTestCase-dummy.m */,
+				9B0F8DDCBDA7037CF968C61D0EBB4D15 /* FBSnapshotTestCase-prefix.pch */,
+				D24E6887A70EEFCD8A2564939F3581CE /* FBSnapshotTestCase-umbrella.h */,
+				DA31AFF17A6B074F09AB1C01D435924C /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		FCC6F965540745142F6675EF7C9E0E2D /* Pods */ = {
+		9513FB366B4DCCAFA481155A56C8A85C /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				BC386722D75704B3DC82AFD41E73AABB /* FBSnapshotTestCase */,
+				AE302B91D87D9E8F4410DE810C4FE663 /* FBSnapshotTestCase.h */,
+				15D955CAACCE25A72A5E1C185DEDDE24 /* FBSnapshotTestCase.m */,
+				B3E65D846438149329A35008AD45EF23 /* FBSnapshotTestCasePlatform.h */,
+				6C8F1663753E342BE23E27B24338CF3F /* FBSnapshotTestCasePlatform.m */,
+				FAA725FEC467C8D5CAEB68FE1CE48A68 /* FBSnapshotTestController.h */,
+				21AC065B5EAA1716E4643B3FE0E72333 /* FBSnapshotTestController.m */,
+				F5AE3FE8203D64A1DCE84F4EC0EDBB55 /* UIImage+Compare.h */,
+				3352D734FC61333DFED25D74891393E8 /* UIImage+Compare.m */,
+				B7B0ECB023E9628A9A68A431B27E0F30 /* UIImage+Diff.h */,
+				97125F602B8A8EEABB875AEDE5F6AADF /* UIImage+Diff.m */,
+				8CC12FAC7458B669B251E5958B09A6DE /* Support Files */,
 			);
-			name = Pods;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		BA827E91A5992021F310604E32D97F09 /* Pods-TimeIntervalPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FC0B489449AD03AB8B0C852593D9DEB9 /* Info.plist */,
+				4094A0CA0A8B21B256DA2D6BD2FBDE10 /* Pods-TimeIntervalPicker.modulemap */,
+				379B78C6385B8387E982AC371B742AA2 /* Pods-TimeIntervalPicker-acknowledgements.markdown */,
+				FD1CC877B0728CFC741A64CFD4B29038 /* Pods-TimeIntervalPicker-acknowledgements.plist */,
+				A97E007FC8CDB3305CBEC5E2D3199F92 /* Pods-TimeIntervalPicker-dummy.m */,
+				A7F67ECCA78AFE09B041D8ADC701938D /* Pods-TimeIntervalPicker-frameworks.sh */,
+				90440829406F9399EEEE46B0E6F9FE4B /* Pods-TimeIntervalPicker-resources.sh */,
+				94E01C007D7A10F567F43E77620028F5 /* Pods-TimeIntervalPicker-umbrella.h */,
+				4655AB05500CD542BE7A054776C7CCDE /* Pods-TimeIntervalPicker.debug.xcconfig */,
+				0D2C2D2A1360DAD1F0576A4F3CDE206F /* Pods-TimeIntervalPicker.release.xcconfig */,
+			);
+			name = "Pods-TimeIntervalPicker";
+			path = "Target Support Files/Pods-TimeIntervalPicker";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6D9636E55CE8AA35D8A86F48E8CBA4 /* FBSnapshotTestCase.framework */,
+				9C32FC14B06B965BCA264A404AF3AD79 /* Pods_Tests.framework */,
+				468820ECF5065D35DDD73AF72B8642A9 /* Pods_TimeIntervalPicker.framework */,
+				EE25FC97C0AE2AAAAC16393630544297 /* TimeIntervalPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28E3EDC3CB49B5984551C8BC042CA33 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F72C7E4642B7197921E8D381375DDB1A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D8E6D4C36CB2CB51E06D33E0A50FB2B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E91EEA8520A817162DF5D75F9458034 /* Pods-Tests */,
+				BA827E91A5992021F310604E32D97F09 /* Pods-TimeIntervalPicker */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F72C7E4642B7197921E8D381375DDB1A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5D020B2F70D209AADFE3004C05FDA /* TimeIntervalPicker.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2AD80D8EB5B8DB6BC89D97710A32CC1C /* Headers */ = {
+		8455E3A44B1444648C2406B4475F929B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5DF1894E9B0C7E61F63C1275FDB53C9 /* Pods-TimeIntervalPicker-umbrella.h in Headers */,
+				D84A0860071F82C05F052768D4B7552E /* Pods-TimeIntervalPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33ED7E7C5EAF6F86804FEBFBCE17A15E /* Headers */ = {
+		D0215184A76D653406F6C1518B1A5D5E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E7069FE1910E785BE47F5C295C1400B /* TimeIntervalPicker-umbrella.h in Headers */,
+				BE897B766F0BCAE9B23A60B5E77E5DC9 /* Pods-Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AC40A4D78076CAB581FD4734D857753 /* Headers */ = {
+		EBA894A94341E2BCDC20645D11A7FC1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A6CA5EDD854ADB4EB8E0A6F7E1A569 /* Pods-Tests-umbrella.h in Headers */,
+				AB89910F09E227908D2B94EC54988899 /* TimeIntervalPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAE37755B157DC7AA0929E21D1A240F8 /* Headers */ = {
+		F20A842D7E9DB80D97F8FBCBB87D1DE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CE268B7C7BCE16334F32FC1C2EB71A /* FBSnapshotTestCase-umbrella.h in Headers */,
-				D4731E70B508AC176F3B5A2275C7D895 /* FBSnapshotTestCase.h in Headers */,
-				CD83CBD8E86245771813C570663FEDE0 /* FBSnapshotTestController.h in Headers */,
-				4E5DA348EC1CEE23FA13110723FAB2BA /* UIImage+Compare.h in Headers */,
-				67979CC4DBFB17F7CA9835C0832E3D65 /* UIImage+Diff.h in Headers */,
+				170FF3B2CE1C9CD1F4B720CA0E3C3519 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				FDDDD653E5BE3CBAFEF07384B3A71823 /* FBSnapshotTestCase.h in Headers */,
+				546D9E766BE598AD0BCDDA041EFDC903 /* FBSnapshotTestCasePlatform.h in Headers */,
+				923D48F103DCA8037B63DBA60E8CC9E6 /* FBSnapshotTestController.h in Headers */,
+				5FA162CB3D8CDE487990629E028C1B88 /* UIImage+Compare.h in Headers */,
+				13430B915D19CBB832AE6F7688B6E8C0 /* UIImage+Diff.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		67BCD11D9FF12A928A194B20151BBAC4 /* TimeIntervalPicker */ = {
+		C18905DEF886D4690DFE80E92DCE0C12 /* Pods-TimeIntervalPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3EEB664B5730DE073B351482001346C /* Build configuration list for PBXNativeTarget "TimeIntervalPicker" */;
+			buildConfigurationList = D337E038C6FABB1F754C379D9BDA473C /* Build configuration list for PBXNativeTarget "Pods-TimeIntervalPicker" */;
 			buildPhases = (
-				47AE85BDAE8415B8314B29ECED571F43 /* Sources */,
-				F8D8506730021C99B644FE18F7BE584E /* Frameworks */,
-				33ED7E7C5EAF6F86804FEBFBCE17A15E /* Headers */,
+				0729F977CA6ECB9BA47F6D0761B6F832 /* Sources */,
+				CD405176B175816C76F24D80D8B478BD /* Frameworks */,
+				8455E3A44B1444648C2406B4475F929B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				937475FF4A55CC4F620BEFAA570DF9FA /* PBXTargetDependency */,
+			);
+			name = "Pods-TimeIntervalPicker";
+			productName = "Pods-TimeIntervalPicker";
+			productReference = 468820ECF5065D35DDD73AF72B8642A9 /* Pods_TimeIntervalPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB8F7FEC3584BC0F68593A792FBF94C2 /* TimeIntervalPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAF5FB8137994302D2F98DCF37726FA /* Build configuration list for PBXNativeTarget "TimeIntervalPicker" */;
+			buildPhases = (
+				795406AFA9B946E5678FEC76CE58F363 /* Sources */,
+				BCB6F3D2418B2E048C2B29B0EE05C66B /* Frameworks */,
+				EBA894A94341E2BCDC20645D11A7FC1E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -378,34 +403,16 @@
 			);
 			name = TimeIntervalPicker;
 			productName = TimeIntervalPicker;
-			productReference = EC724EBD4B37B1547D20A5A89C17094C /* TimeIntervalPicker.framework */;
+			productReference = EE25FC97C0AE2AAAAC16393630544297 /* TimeIntervalPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9553BB82E1B3F3C2521F0FB36A593F57 /* Pods-TimeIntervalPicker */ = {
+		E036BAC74DFC6440B0E0E2D78FDEA974 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DBF20E242ED1C6202C399BD69A5657A /* Build configuration list for PBXNativeTarget "Pods-TimeIntervalPicker" */;
+			buildConfigurationList = CB374505D4D0123EEE50FE3018D5D236 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
 			buildPhases = (
-				C800673057D9A4EEF4B3EA1567461F87 /* Sources */,
-				CB70B98F09CF292931420397B358BC79 /* Frameworks */,
-				2AD80D8EB5B8DB6BC89D97710A32CC1C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E60A192A3AEF7C7481029051299ED2C4 /* PBXTargetDependency */,
-			);
-			name = "Pods-TimeIntervalPicker";
-			productName = "Pods-TimeIntervalPicker";
-			productReference = 242F891AF978E5384A55433A51A873F8 /* Pods_TimeIntervalPicker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A5CCFB2F59DAFE502703E0247972EB6E /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 793F7A98716EF7A156ACDECAD217C673 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				AD785C879B0962EFD1D1FA95DE2493F3 /* Sources */,
-				1EB874ABC17223DD935C5C63F6A99A28 /* Frameworks */,
-				DAE37755B157DC7AA0929E21D1A240F8 /* Headers */,
+				168E0568BF5316F6F9B8A81D6505CDFE /* Sources */,
+				F6D66C0747109F3EBDA599FA7611C49E /* Frameworks */,
+				F20A842D7E9DB80D97F8FBCBB87D1DE4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -413,26 +420,26 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = DDEEB9FD761F95EE3F286ED8C9B4CB33 /* FBSnapshotTestCase.framework */;
+			productReference = FB6D9636E55CE8AA35D8A86F48E8CBA4 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EC08A6238238DC2F93C2F96ABE8C5870 /* Pods-Tests */ = {
+		FD4ED01BEFA109E217AA4865A1952AEE /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 903FD6282E94748C24D44BAE7B4A256C /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = A18845F2DF6D145452EB81ED48F62573 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				BD359027D16A4A396C1BE37906EF51F2 /* Sources */,
-				49EBF6043EFDBF2F931B11949362E245 /* Frameworks */,
-				5AC40A4D78076CAB581FD4734D857753 /* Headers */,
+				68708B0644EAE3FCE229D07C75199E1C /* Sources */,
+				F23C76A83E1CD1F00F90FA33A873F4A0 /* Frameworks */,
+				D0215184A76D653406F6C1518B1A5D5E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7DAC50896220B0163119DC2D1949D79B /* PBXTargetDependency */,
-				4369D3F6CD0B222F9D6D2DF32616810E /* PBXTargetDependency */,
+				39D038590E13C676C183FA3D8B1AEB7C /* PBXTargetDependency */,
+				3A841F582ACCD4F30E5EB6A625BDF9A8 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = EDF78CEF4D8A016778FA7AA13087A2B8 /* Pods_Tests.framework */;
+			productReference = 9C32FC14B06B965BCA264A404AF3AD79 /* Pods_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -456,77 +463,161 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5CCFB2F59DAFE502703E0247972EB6E /* FBSnapshotTestCase */,
-				EC08A6238238DC2F93C2F96ABE8C5870 /* Pods-Tests */,
-				9553BB82E1B3F3C2521F0FB36A593F57 /* Pods-TimeIntervalPicker */,
-				67BCD11D9FF12A928A194B20151BBAC4 /* TimeIntervalPicker */,
+				E036BAC74DFC6440B0E0E2D78FDEA974 /* FBSnapshotTestCase */,
+				FD4ED01BEFA109E217AA4865A1952AEE /* Pods-Tests */,
+				C18905DEF886D4690DFE80E92DCE0C12 /* Pods-TimeIntervalPicker */,
+				DB8F7FEC3584BC0F68593A792FBF94C2 /* TimeIntervalPicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		47AE85BDAE8415B8314B29ECED571F43 /* Sources */ = {
+		0729F977CA6ECB9BA47F6D0761B6F832 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B73EE44B10A264AC4FDE1EF277AA41 /* TimeIntervalPicker-dummy.m in Sources */,
-				48D0B979D74CF3066A7BD47B6603C663 /* TimeIntervalPicker.swift in Sources */,
+				4F4393F247FD75E61B3056971DCBDA0D /* Pods-TimeIntervalPicker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD785C879B0962EFD1D1FA95DE2493F3 /* Sources */ = {
+		168E0568BF5316F6F9B8A81D6505CDFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11410E832B35D31ADBC868B44BE1DC7 /* FBSnapshotTestCase-dummy.m in Sources */,
-				ED903F97D8831A9D90A7E9D470C355F4 /* FBSnapshotTestCase.m in Sources */,
-				B73B3FBC75960E224AE822D5DF4D753F /* FBSnapshotTestController.m in Sources */,
-				8D11E96EF4B0F59F19129D68065AD5BA /* UIImage+Compare.m in Sources */,
-				2CC41D2E358EA3BADDA4BECF0E5A9C2A /* UIImage+Diff.m in Sources */,
+				1FF244D96D8679C2458BD00F2867A210 /* FBSnapshotTestCase-dummy.m in Sources */,
+				3368024F8AD862028B4A5E8354A73E2A /* FBSnapshotTestCase.m in Sources */,
+				AB3AF10FB93F741BA2F9BFDCF8DE682E /* FBSnapshotTestCasePlatform.m in Sources */,
+				044C71597B650C3670754C517A02B92F /* FBSnapshotTestController.m in Sources */,
+				6B41B2BF10F81ACF44F7D67DBEBD1ECC /* UIImage+Compare.m in Sources */,
+				6372EBD95B9F49EE0522788D6FD02214 /* UIImage+Diff.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD359027D16A4A396C1BE37906EF51F2 /* Sources */ = {
+		68708B0644EAE3FCE229D07C75199E1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041DE02E7081C6FC7DEE37F59EDAD7A9 /* Pods-Tests-dummy.m in Sources */,
+				BB971810129BA0D414212B21FCA6B78F /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C800673057D9A4EEF4B3EA1567461F87 /* Sources */ = {
+		795406AFA9B946E5678FEC76CE58F363 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1842B596108BED3F03A5112B1443C759 /* Pods-TimeIntervalPicker-dummy.m in Sources */,
+				65AC247FEDC1571C02D7724E2CBA172E /* TimeIntervalPicker-dummy.m in Sources */,
+				A6CBDF00AA11AD3409E046181446765D /* TimeIntervalPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4369D3F6CD0B222F9D6D2DF32616810E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TimeIntervalPicker;
-			target = 67BCD11D9FF12A928A194B20151BBAC4 /* TimeIntervalPicker */;
-			targetProxy = A6AE03C1AAA285257CC079FA360DFABE /* PBXContainerItemProxy */;
-		};
-		7DAC50896220B0163119DC2D1949D79B /* PBXTargetDependency */ = {
+		39D038590E13C676C183FA3D8B1AEB7C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
-			target = A5CCFB2F59DAFE502703E0247972EB6E /* FBSnapshotTestCase */;
-			targetProxy = E0FC2C3A27243853F67853A03796A004 /* PBXContainerItemProxy */;
+			target = E036BAC74DFC6440B0E0E2D78FDEA974 /* FBSnapshotTestCase */;
+			targetProxy = 89D596475D9E6AC1FD48B401BA5B6998 /* PBXContainerItemProxy */;
 		};
-		E60A192A3AEF7C7481029051299ED2C4 /* PBXTargetDependency */ = {
+		3A841F582ACCD4F30E5EB6A625BDF9A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TimeIntervalPicker;
-			target = 67BCD11D9FF12A928A194B20151BBAC4 /* TimeIntervalPicker */;
-			targetProxy = 4FFC4567B11965E309FC11F6C4543A74 /* PBXContainerItemProxy */;
+			target = DB8F7FEC3584BC0F68593A792FBF94C2 /* TimeIntervalPicker */;
+			targetProxy = 4566CBC28C8863BC82FB06E395111483 /* PBXContainerItemProxy */;
+		};
+		937475FF4A55CC4F620BEFAA570DF9FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TimeIntervalPicker;
+			target = DB8F7FEC3584BC0F68593A792FBF94C2 /* TimeIntervalPicker */;
+			targetProxy = 65DCF56A1246739C5E494F08D4CBAF01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C812A8B084AB655D058D5DC45F0D458 /* Debug */ = {
+		1B1239377078A606C713D18D731C4923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207965E7BF3701A8A6D9E5E67225E2B4 /* FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.8.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BE08DC88DB97BFA5E7004AF921D09EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2C2D2A1360DAD1F0576A4F3CDE206F /* Pods-TimeIntervalPicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeIntervalPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeIntervalPicker/Pods-TimeIntervalPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TimeIntervalPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		652761D18612230FE0F3949B4183BED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207965E7BF3701A8A6D9E5E67225E2B4 /* FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.8.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -565,9 +656,38 @@
 			};
 			name = Debug;
 		};
-		1B1594863F8FCE3B16021572B44FC7FA /* Debug */ = {
+		B003EB7BA3D9BD360DC24391AAB273A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3E5E94EA8C8CFBF34578F0661E00B7D /* Pods-TimeIntervalPicker.debug.xcconfig */;
+			baseConfigurationReference = E1CA00000D132B3F871B2BD38537B43C /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6FBE38EB460D0000AB3E2239A461CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4655AB05500CD542BE7A054776C7CCDE /* Pods-TimeIntervalPicker.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -595,9 +715,9 @@
 			};
 			name = Debug;
 		};
-		53261E57475FB3DFFE1A922E090740C3 /* Debug */ = {
+		D0F8EC6AE3081B0FC343398339A5E1E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90E152B5BDA232D1C2FB6286EB911EA3 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = F5B876059E33A9F0B5D585BF7038A2A8 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -625,14 +745,41 @@
 			};
 			name = Debug;
 		};
-		60F8657916516EAC7C10514455E5CE5A /* Debug */ = {
+		DC084CCF12A2338DFCF14BDBB02D79EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 158718CD7E2DA3B19D043639F1BDB3D3 /* TimeIntervalPicker-Private.xcconfig */;
+			baseConfigurationReference = C6F7D02ABCA489173DB7EF9302640855 /* TimeIntervalPicker-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = 0.3.1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TimeIntervalPicker/TimeIntervalPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimeIntervalPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimeIntervalPicker/TimeIntervalPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TimeIntervalPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEE0ED991C2A74D9EE1AB1F69644E484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F7D02ABCA489173DB7EF9302640855 /* TimeIntervalPicker-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.1;
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -653,36 +800,7 @@
 			};
 			name = Debug;
 		};
-		645C0FA72B006C52A0086868B29469B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CCFCCACC5CCC88365AE0438D7CD62A9 /* Pods-TimeIntervalPicker.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TimeIntervalPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TimeIntervalPicker/Pods-TimeIntervalPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_TimeIntervalPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7C84345D7EEBBBB2BFF18E13BB3BA6A7 /* Release */ = {
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -716,160 +834,50 @@
 			};
 			name = Release;
 		};
-		A4347A7347FA925D1EA2704C15F0C6E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29F3D46F39EF1065E75849747D054427 /* FBSnapshotTestCase-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.5;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A9CC670AD67322B245ECA264C8A129AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29F3D46F39EF1065E75849747D054427 /* FBSnapshotTestCase-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.5;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AC02E01487B4420A6CC1913FC2C64FA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6180CA00106FD7E050BAED661F9EFEC /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E61F5AF22E3AD62F2C845B652BE1D09C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 158718CD7E2DA3B19D043639F1BDB3D3 /* TimeIntervalPicker-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TimeIntervalPicker/TimeIntervalPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TimeIntervalPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TimeIntervalPicker/TimeIntervalPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TimeIntervalPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C812A8B084AB655D058D5DC45F0D458 /* Debug */,
-				7C84345D7EEBBBB2BFF18E13BB3BA6A7 /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DBF20E242ED1C6202C399BD69A5657A /* Build configuration list for PBXNativeTarget "Pods-TimeIntervalPicker" */ = {
+		A18845F2DF6D145452EB81ED48F62573 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B1594863F8FCE3B16021572B44FC7FA /* Debug */,
-				645C0FA72B006C52A0086868B29469B0 /* Release */,
+				D0F8EC6AE3081B0FC343398339A5E1E4 /* Debug */,
+				B003EB7BA3D9BD360DC24391AAB273A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		793F7A98716EF7A156ACDECAD217C673 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		CB374505D4D0123EEE50FE3018D5D236 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4347A7347FA925D1EA2704C15F0C6E6 /* Debug */,
-				A9CC670AD67322B245ECA264C8A129AA /* Release */,
+				1B1239377078A606C713D18D731C4923 /* Debug */,
+				652761D18612230FE0F3949B4183BED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		903FD6282E94748C24D44BAE7B4A256C /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		D337E038C6FABB1F754C379D9BDA473C /* Build configuration list for PBXNativeTarget "Pods-TimeIntervalPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53261E57475FB3DFFE1A922E090740C3 /* Debug */,
-				AC02E01487B4420A6CC1913FC2C64FA1 /* Release */,
+				C6FBE38EB460D0000AB3E2239A461CA3 /* Debug */,
+				1BE08DC88DB97BFA5E7004AF921D09EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3EEB664B5730DE073B351482001346C /* Build configuration list for PBXNativeTarget "TimeIntervalPicker" */ = {
+		FBAF5FB8137994302D2F98DCF37726FA /* Build configuration list for PBXNativeTarget "TimeIntervalPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60F8657916516EAC7C10514455E5CE5A /* Debug */,
-				E61F5AF22E3AD62F2C845B652BE1D09C /* Release */,
+				DEE0ED991C2A74D9EE1AB1F69644E484 /* Debug */,
+				DC084CCF12A2338DFCF14BDBB02D79EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

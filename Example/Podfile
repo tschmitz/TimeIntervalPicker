@@ -8,5 +8,5 @@ end
 
 target 'Tests', :exclusive => true do
   pod "TimeIntervalPicker", :path => "../"
-  pod 'FBSnapshotTestCase'
+  pod 'FBSnapshotTestCase', '~> 1.0'
 end
