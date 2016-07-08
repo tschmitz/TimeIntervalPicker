@@ -13,10 +13,10 @@ internal class ViewController: UIViewController {
     internal override func viewDidLoad() {
         formatter.unitsStyle = NSDateComponentsFormatterUnitsStyle.Short
         
-        defaultPicker.addTarget(self, action: Selector("defaultPickerValueChanged"), forControlEvents: UIControlEvents.ValueChanged)
+        defaultPicker.addTarget(self, action: #selector(ViewController.defaultPickerValueChanged), forControlEvents: UIControlEvents.ValueChanged)
         defaultPickerValueChanged()
         
-        customPicker.addTarget(self, action: Selector("customPickerValueChanged"), forControlEvents: UIControlEvents.ValueChanged)
+        customPicker.addTarget(self, action: #selector(ViewController.customPickerValueChanged), forControlEvents: UIControlEvents.ValueChanged)
         customPickerValueChanged()
         
         customPicker.minutesHoursLabelFont = UIFont(name: "AmericanTypewriter", size: 20)!
